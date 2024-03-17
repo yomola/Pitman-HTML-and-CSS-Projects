@@ -1,0 +1,12 @@
+p{
+	color: #f5f5dc;
+	background-color: #FF00FF;
+	font-size: 20px;
+	text-align: right;
+}
+#text-shadow{
+	text-shadow: 3px 3px 5px rgba(100, 100, 0, 0.75);
+	background-color: white;
+	font-size: 30px;
+	text-align: center;
+}
