@@ -1,5 +1,37 @@
 body{
     background-color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 15px;
+}
+nav{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    color: #b3b3b3;
+    display: inline-block;
+    margin-right: -2px;
+    position: relative;
+    padding: 12px 40px;
+    border: 1px solid #9d9fa2;
+    border-radius: 1.5px;
+    background-color: #cad0ce;
+    cursor: pointer;
+}
+nav li:hover{
+    background-color: #5db596;
+    color: #fff;
+}
+#logo{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
 }
 #gallery{
     display: flex;
@@ -9,8 +41,10 @@ body{
 }
 .flex-item{
     width: 300px;
-    border-radius: 5px;
+    height: 300px;
     margin: auto;
+    padding: 4px;
+    border-radius: 10px;
 
 }
 #what-we-are-about{
@@ -29,9 +63,13 @@ form{
       padding-right: 1em;
 }
 
-input{
+input, select{
     width: 500px;
+    margin: 2px auto ;
     display: block;
+    border: 2px;
+    border-radius: 4px;
+    
 }
 input[type="checkbox"]{
     display: inline;
@@ -41,6 +79,11 @@ h1, h2, p{
     margin: 1em auto;
       text-align: center;
 }
-#logo{
-    border-radius: 100px;
+
+
+
+.gallery, .contact, footer{
+    background-color: #cad0ce;
+    padding: 10px;
+    border-radius: 10px;
 }
