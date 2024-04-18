@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade in Overlay</title>
+    <style>
+        .container{
+            position: relative;
+            width: 50%;
+        }
+        .image{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: 0.5s ease;
+            background-color: #008cba;
+        }
+        .container:hover .overlay{
+            opacity: 1;
+        }
+
+        .text{
+            color: #fff;
+            font-size: 20px;
+            top: 50%;
+            right: 20%;
+            -webkit-transform: translate(-50%, -50%);
+             -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Fade in Overlay</h2>
+    <p>hover over the image to see the effect.</p>
+    <div class="container">
+        <video  autoplay muted loop width="320" height="240" controls class="image">
+            <source src="road.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <p class="text">Hello World</p>
+        </div>
+    </div>
+    <div>
+        <video  autoplay muted loop width="320" height="240" controls>
+            <source src="road.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
