@@ -4,7 +4,7 @@ This is a collection of all the websites I made using HTML and CSS. It also cont
 ## Projects
 +[Dog Shelter](https://github.com/yomola/Pitman-HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/One-Page%20Website)
 +[Academy Cinemas](https://github.com/yomola/Pitman-HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/bootstrap4_project)
-+[Portfolo Website](https://github.com/yomola/Pitman-HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/Portfolio%20Website%20Adebayo)
++[Portfolio Website](https://github.com/yomola/Pitman-HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/Portfolio%20Website%20Adebayo)
 
 ### Dog Shelter
 This page is an example home page for a Dog Rehome company. It is styles using CSS- Dog phootes are arranged using Flexbox and it contains a navbar, image containers and a form
